@@ -1,0 +1,12 @@
+.claude-plugin/types/
+node_modules/
+.DS_Store
+*.log
+
+__pycache__/
+*.pyc
+.claude/
+.env
+.env.*
+!.env.example
+release-assets/

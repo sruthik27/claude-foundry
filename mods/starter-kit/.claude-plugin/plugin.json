@@ -1,0 +1,24 @@
+{
+  "name": "starter-kit",
+  "version": "0.1.0",
+  "description": "Start with richer replies, session insights, concept-based code review and progress bands.",
+  "dependencies": [
+    "lumen",
+    "insight-pane",
+    "changes",
+    "goal-meter",
+    "live-progress"
+  ],
+  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/starter-kit",
+  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "license": "MIT",
+  "author": {
+    "name": "Sruthik Issac",
+    "url": "https://github.com/sruthik27"
+  },
+  "keywords": [
+    "claude-code",
+    "mod",
+    "productivity"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "changes",
+  "version": "0.1.1",
+  "description": "/changes: the session's edits grouped by concept, then files, then the exact code; point at lines and ask Claude about them or have it change them",
+  "types": "./types/index.d.ts",
+  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/changes",
+  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "license": "MIT",
+  "author": {
+    "name": "Sruthik Issac",
+    "url": "https://github.com/sruthik27"
+  },
+  "keywords": [
+    "claude-code",
+    "mod",
+    "productivity"
+  ]
+}

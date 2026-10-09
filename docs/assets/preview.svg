@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-labelledby="title desc">
+<title id="title">Claude Code Mods — illustrative terminal preview</title><desc id="desc">A concept preview showing code changes, an Intel pane, goal progress and a background test band. This is not a live screenshot.</desc>
+<rect width="1100" height="570" rx="20" fill="#11111b"/><rect x="16" y="16" width="1068" height="538" rx="12" fill="#1e1e2e" stroke="#45475a"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#cdd6f4">
+<circle cx="39" cy="40" r="5" fill="#f38ba8"/><circle cx="57" cy="40" r="5" fill="#f9e2af"/><circle cx="75" cy="40" r="5" fill="#a6e3a1"/><text x="108" y="46" fill="#a6adc8">CLAUDE CODE MODS</text><text x="828" y="46" font-size="12" fill="#a6adc8">ILLUSTRATIVE PREVIEW</text>
+<path d="M16 64H1084 M728 64V437 M16 437H1084" stroke="#45475a"/>
+<text x="42" y="103" fill="#89b4fa">❯</text><text x="68" y="103">Make retries predictable. Show me what changed.</text>
+<text x="42" y="153" fill="#cba6f7">●</text><text x="68" y="153" fill="#a6e3a1" font-weight="bold">Retry behavior, explained.</text>
+<text x="68" y="183">Requests retry with a bounded backoff.</text><text x="68" y="208">The review groups implementation and tests together.</text>
+<rect x="42" y="237" width="654" height="169" rx="8" fill="#181825" stroke="#45475a"/>
+<text x="62" y="268" fill="#89b4fa">CHANGES</text><text x="62" y="300" font-weight="bold">Bounded retry policy</text><text x="62" y="332" fill="#a6adc8">src/retry.ts     tests/retry.test.ts</text><text x="62" y="371" fill="#a6e3a1">+ timeout cap</text><text x="317" y="371" fill="#f38ba8">− unbounded retries</text>
+<text x="754" y="104" fill="#cba6f7" font-weight="bold">◆ INTEL</text><text x="754" y="147" fill="#89b4fa">DECISION</text><text x="754" y="176">Use bounded backoff.</text><text x="754" y="201" fill="#a6adc8">Keeps retries from growing</text><text x="754" y="225" fill="#a6adc8">without a limit.</text><text x="754" y="276" fill="#f9e2af">GOTCHA</text><text x="754" y="305">Retry only safe requests.</text><text x="754" y="330" fill="#a6adc8">A repeated write can create</text><text x="754" y="354" fill="#a6adc8">duplicate side effects.</text>
+<text x="42" y="470" fill="#89b4fa">◆ Retry feature</text><rect x="258" y="457" width="594" height="10" rx="5" fill="#45475a"/><rect x="258" y="457" width="440" height="10" rx="5" fill="#89b4fa"/><text x="885" y="470" fill="#89b4fa">74% · tests</text>
+<text x="42" y="508" fill="#a6e3a1">✓ test suite</text><text x="258" y="508" fill="#a6e3a1">24 passed</text><text x="457" y="508" fill="#a6adc8">0 failed · 00:12</text><text x="42" y="540" font-size="12" fill="#a6adc8">THEMES · INSIGHTS · CODE REVIEW · PROGRESS · SIDE CHAT</text>
+</g></svg>

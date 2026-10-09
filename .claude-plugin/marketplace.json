@@ -1,0 +1,103 @@
+{
+  "name": "claude-code-mods",
+  "owner": {
+    "name": "Sruthik Issac"
+  },
+  "plugins": [
+    {
+      "name": "all-mods",
+      "source": "./mods/all-mods",
+      "description": "Install all 11 Claude Code mods. Includes optional self-drive, MCP controls, side chat and session tools.",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "aside",
+      "source": "./mods/aside",
+      "description": "Read-only side chat: /aside opens a pane beside the transcript where you ask about the session so far; answers come from a tool-less fork of the session's own transcript and nothing is written back into the main thread.",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "changes",
+      "source": "./mods/changes",
+      "description": "/changes: the session's edits grouped by concept, then files, then the exact code; point at lines and ask Claude about them or have it change them",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "find-sess",
+      "source": "./mods/find-sess",
+      "description": "/find-sess <what you remember>: find a past session in this repo with a Haiku call, then resume it",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "goal-meter",
+      "source": "./mods/goal-meter",
+      "description": "Live overall-goal progress bar above the prompt, from the task tools plus Claude's per-turn goal estimate",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "insight-pane",
+      "source": "./mods/insight-pane",
+      "description": "Live pane of the decisions, root causes and gotchas worth knowing, fed into ~/learning notes",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "live-progress",
+      "source": "./mods/live-progress",
+      "description": "Live progress bands above the prompt for long-running work Claude starts: tests, builds, scripts, logs",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "lumen",
+      "source": "./mods/lumen",
+      "description": "Colourful, themeable rendering for Claude Code replies, with animated diagrams, timelines, state machines and sparklines. A fork of prismantis.",
+      "version": "1.0.1",
+      "category": "productivity"
+    },
+    {
+      "name": "mcp-control",
+      "source": "./mods/mcp-control",
+      "description": "Lets Claude see every configured MCP server, ask you (one click) to enable one that is off here, and reconnect a server after editing it",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "self-drive",
+      "source": "./mods/self-drive",
+      "description": "/self-drive: hand Claude a task and walk away; it decides alone, logs every call it would have asked you, holds risky actions, and keeps going",
+      "version": "0.1.1",
+      "category": "productivity"
+    },
+    {
+      "name": "session-namer",
+      "source": "./mods/session-namer",
+      "description": "Gives each session a short findable name on exit, and re-checks it on later exits",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "skills",
+      "source": "./mods/skills",
+      "description": "/skills: per-prompt skill suggestions, what Claude actually loaded, and one-key use of a suggested skill",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "starter-kit",
+      "source": "./mods/starter-kit",
+      "description": "Start with richer replies, session insights, concept-based code review and progress bands.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ],
+  "metadata": {
+    "description": "11 Claude Code mods for richer replies, living insights, code review, progress and workflow tools.",
+    "version": "0.1.0-beta.1"
+  }
+}

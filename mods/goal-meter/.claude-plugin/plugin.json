@@ -1,0 +1,18 @@
+{
+  "name": "goal-meter",
+  "version": "0.1.1",
+  "description": "Live overall-goal progress bar above the prompt, from the task tools plus Claude's per-turn goal estimate",
+  "types": "./types/index.d.ts",
+  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/goal-meter",
+  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "license": "MIT",
+  "author": {
+    "name": "Sruthik Issac",
+    "url": "https://github.com/sruthik27"
+  },
+  "keywords": [
+    "claude-code",
+    "mod",
+    "productivity"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "all-mods",
+  "version": "0.1.0",
+  "description": "Install all 11 Claude Code mods. Includes optional self-drive, MCP controls, side chat and session tools.",
+  "dependencies": [
+    "aside",
+    "changes",
+    "find-sess",
+    "goal-meter",
+    "insight-pane",
+    "live-progress",
+    "lumen",
+    "mcp-control",
+    "self-drive",
+    "session-namer",
+    "skills"
+  ],
+  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/all-mods",
+  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "license": "MIT",
+  "author": {
+    "name": "Sruthik Issac",
+    "url": "https://github.com/sruthik27"
+  },
+  "keywords": [
+    "claude-code",
+    "mod",
+    "productivity"
+  ]
+}
