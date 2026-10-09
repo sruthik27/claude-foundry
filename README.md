@@ -72,7 +72,7 @@ Self-drive starts only when you explicitly invoke its command.
 - **Model usage:** insights, edit labels, skill suggestions, session names, session search, and Aside can make extra model calls. They consume your plan/API usage and some hooks await their results. See [behavior and data](docs/BEHAVIOR.md).
 - **Permissions:** mods run with your account's permissions. Self-drive's pattern guards are not a shell sandbox. Its deadline blocks new tool calls, but cannot terminate an already running process or agent.
 - **Renderer conflicts:** disable an existing Prismantis renderer before enabling Lumen, and disable upstream Aside before enabling this fork.
-- **Public beta:** offline tests and installation checks are automated. Live model behavior and actual terminal painting still need real-session testing; Windows is not verified. See [validation](docs/VALIDATION.md).
+- **Public beta:** 303 checks pass locally, including installation checks. Hosted CI is configured but did not execute for this initial release. Live model behavior and actual terminal painting still need real-session testing; Windows is not verified. See [validation](docs/VALIDATION.md).
 
 ## Updates and removal
 

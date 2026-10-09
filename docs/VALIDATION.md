@@ -8,8 +8,10 @@ The initial public beta is based on the corrected collection tested on Claude Co
 - Aside uses its upstream Node-based fake-engine test harness.
 - Installer tests use temporary configuration directories and cover backups, stale file replacement, unrelated settings, invalid inputs and bundle dependencies.
 - Catalog tests check plugin names, paths, versions, licences and local dependency resolution.
-- CI installs the pinned Claude CLI and runs the checks on macOS and Ubuntu without model credentials.
+- CI is configured to install the pinned Claude CLI and run the checks on macOS and Ubuntu without model credentials. Hosted jobs did not execute for the initial release; inspect Actions for the current status.
 - Marketplace installation is smoke-tested in an isolated Claude configuration before release.
+
+For 0.1.0-beta.1, all 298 mod tests and 5 installer/catalog tests passed locally (303 total). Local and public-GitHub marketplace installation enabled all 13 entries in disposable configurations.
 
 Run `python3 scripts/check.py` for the current test results. The GitHub Actions badge reflects the latest remote CI result; release notes record release-specific checks.
 

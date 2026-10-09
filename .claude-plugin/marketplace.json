@@ -15,7 +15,7 @@
       "name": "aside",
       "source": "./mods/aside",
       "description": "Read-only side chat: /aside opens a pane beside the transcript where you ask about the session so far; answers come from a tool-less fork of the session's own transcript and nothing is written back into the main thread.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "productivity"
     },
     {
@@ -43,7 +43,7 @@
       "name": "insight-pane",
       "source": "./mods/insight-pane",
       "description": "Live pane of the decisions, root causes and gotchas worth knowing, fed into ~/learning notes",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "productivity"
     },
     {

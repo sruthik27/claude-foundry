@@ -1,6 +1,6 @@
 {
   "name": "aside",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Read-only side chat: /aside opens a pane beside the transcript where you ask about the session so far; answers come from a tool-less fork of the session's own transcript and nothing is written back into the main thread.",
   "author": {
     "name": "JayDoubleu (original); Sruthik Issac (fork)",
