@@ -12,7 +12,7 @@ class Catalogue(unittest.TestCase):
             plugin=json.loads((source/'.claude-plugin/plugin.json').read_text())
             self.assertEqual(entry['name'],plugin['name']);self.assertEqual(entry['version'],plugin['version'])
             self.assertTrue((source/'README.md').is_file());self.assertTrue((source/'LICENSE').is_file())
-            self.assertEqual(plugin['repository'],'https://github.com/sruthik27/claude-code-mods')
+            self.assertEqual(plugin['repository'],'https://github.com/sruthik27/claude-foundry')
         self.assertEqual(names,{p.name for p in (ROOT/'mods').iterdir() if p.is_dir()})
     def test_bundle_dependencies_are_local_acyclic_and_complete(self):
         plugins={p.name:json.loads((p/'.claude-plugin/plugin.json').read_text()) for p in (ROOT/'mods').iterdir() if p.is_dir()}

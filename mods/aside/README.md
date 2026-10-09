@@ -5,7 +5,7 @@ A read-only side chat about your Claude Code session, restyled to follow Lumen's
 ## Install
 
 ```bash
-claude plugin install aside --marketplace sruthik27/claude-code-mods
+claude plugin install aside --marketplace sruthik27/claude-foundry
 ```
 
 Requires Claude Code 2.1.296+. Disable upstream `aside@aside` first if you already have it installed, then reload plugins or restart. Lumen is optional; the pane has a native Markdown fallback.

@@ -6,8 +6,8 @@
     "name": "JayDoubleu (original); Sruthik Issac (fork)",
     "url": "https://github.com/sruthik27"
   },
-  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/aside",
-  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "homepage": "https://github.com/sruthik27/claude-foundry/tree/main/mods/aside",
+  "repository": "https://github.com/sruthik27/claude-foundry",
   "license": "MIT",
   "keywords": [
     "side-chat",

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "/skills: per-prompt skill suggestions, what Claude actually loaded, and one-key use of a suggested skill",
   "types": "./types/index.d.ts",
-  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/skills",
-  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "homepage": "https://github.com/sruthik27/claude-foundry/tree/main/mods/skills",
+  "repository": "https://github.com/sruthik27/claude-foundry",
   "license": "MIT",
   "author": {
     "name": "Sruthik Issac",

@@ -2,8 +2,8 @@
   "name": "session-namer",
   "version": "0.1.0",
   "description": "Gives each session a short findable name on exit, and re-checks it on later exits",
-  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/session-namer",
-  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "homepage": "https://github.com/sruthik27/claude-foundry/tree/main/mods/session-namer",
+  "repository": "https://github.com/sruthik27/claude-foundry",
   "license": "MIT",
   "author": {
     "name": "Sruthik Issac",

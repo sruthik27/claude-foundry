@@ -13,25 +13,25 @@ You need working Claude Code model access to use model-backed features. Installa
 In your shell:
 
 ```bash
-claude plugin install starter-kit --marketplace sruthik27/claude-code-mods
+claude plugin install starter-kit --marketplace sruthik27/claude-foundry
 ```
 
 Or in Claude Code:
 
 ```text
-/plugin install starter-kit --marketplace sruthik27/claude-code-mods
+/plugin install starter-kit --marketplace sruthik27/claude-foundry
 ```
 
 The starter kit contains Lumen, Insight Pane, Changes, Goal Meter and Live Progress. `all-mods` contains all 11 mods. Each mod is also installable by its folder name:
 
 ```bash
-claude plugin install aside --marketplace sruthik27/claude-code-mods
+claude plugin install aside --marketplace sruthik27/claude-foundry
 ```
 
 To add the catalog first and browse it:
 
 ```bash
-claude plugin marketplace add sruthik27/claude-code-mods
+claude plugin marketplace add sruthik27/claude-foundry
 claude plugin install lumen@claude-code-mods
 claude plugin list
 ```
@@ -76,8 +76,8 @@ Avoid loading the same mod twice. If you previously ran `install.sh`, remove onl
 The legacy installer remains available for local development:
 
 ```bash
-git clone https://github.com/sruthik27/claude-code-mods
-cd claude-code-mods
+git clone https://github.com/sruthik27/claude-foundry
+cd claude-foundry
 ./install.sh starter-kit
 ```
 
@@ -91,4 +91,4 @@ It copies selected mods and local bundle dependencies into `~/.claude/mods`, bac
 - **Self-drive refuses tools after a limit:** use `/self-drive stop` when you are ready to release its gate.
 - **A log says done too soon:** runner summaries are provisional. Live Progress continues checking for later packages until the idle timeout; it cannot infer process exit from a log alone.
 
-If it still fails, [open a bug report](https://github.com/sruthik27/claude-code-mods/issues/new/choose) with the mod, Claude version, OS, terminal and a minimal reproduction. Remove credentials and private session content from logs.
+If it still fails, [open a bug report](https://github.com/sruthik27/claude-foundry/issues/new/choose) with the mod, Claude version, OS, terminal and a minimal reproduction. Remove credentials and private session content from logs.

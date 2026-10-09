@@ -13,5 +13,5 @@
     "test": "node --test tests/register.test.ts",
     "check": "npm run validate && npm test"
   },
-  "repository": "https://github.com/sruthik27/claude-code-mods"
+  "repository": "https://github.com/sruthik27/claude-foundry"
 }

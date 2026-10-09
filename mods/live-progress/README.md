@@ -5,7 +5,7 @@ Ask Claude to use watch_progress with an absolute log path and short label. Know
 ## Install
 
 ```bash
-claude plugin install live-progress --marketplace sruthik27/claude-code-mods
+claude plugin install live-progress --marketplace sruthik27/claude-foundry
 ```
 
 Requires Claude Code 2.1.296+. Reload plugins or start a new session after installation.
@@ -21,6 +21,6 @@ Run tests in the background, write their output to /tmp/tests.log, and watch tha
 - [Installation, compatibility and removal](../../docs/INSTALL.md)
 - [Model usage, data and limitations](../../docs/BEHAVIOR.md)
 - [Validation boundaries](../../docs/VALIDATION.md)
-- [Report a bug](https://github.com/sruthik27/claude-code-mods/issues/new/choose)
+- [Report a bug](https://github.com/sruthik27/claude-foundry/issues/new/choose)
 
 MIT licensed. Maintained by [Sruthik Issac](https://github.com/sruthik27).

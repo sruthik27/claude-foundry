@@ -1,18 +1,18 @@
 <div align="center">
 
-# Claude Code Mods
+# Claude Foundry
 
-**Keep the context. See the changes. Follow the work.**
+**Small upgrades. A better Claude Code experience.**
 
 11 independently installable mods for Claude Code: richer replies, living session insights,
 concept-based code review, progress bands, side chat, and workflow tools.
 
-[![CI](https://github.com/sruthik27/claude-code-mods/actions/workflows/ci.yml/badge.svg)](https://github.com/sruthik27/claude-code-mods/actions/workflows/ci.yml)
+[![CI](https://github.com/sruthik27/claude-foundry/actions/workflows/ci.yml/badge.svg)](https://github.com/sruthik27/claude-foundry/actions/workflows/ci.yml)
 [![MIT](https://img.shields.io/badge/license-MIT-a6e3a1)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-2.1.296%2B-89b4fa)](https://code.claude.com/docs/en/plugins/mods)
-[![Public beta](https://img.shields.io/badge/status-public_beta-f9e2af)](https://github.com/sruthik27/claude-code-mods/releases)
+[![Public beta](https://img.shields.io/badge/status-public_beta-f9e2af)](https://github.com/sruthik27/claude-foundry/releases)
 
-[Quick start](#install) · [Browse the mods](#choose-your-mods) · [Documentation](docs/INSTALL.md) · [Report a bug](https://github.com/sruthik27/claude-code-mods/issues/new/choose)
+[Quick start](#install) · [Browse the mods](#choose-your-mods) · [Documentation](docs/INSTALL.md) · [Report a bug](https://github.com/sruthik27/claude-foundry/issues/new/choose)
 
 ![Illustrative terminal preview of the collection](docs/assets/preview.svg)
 
@@ -22,10 +22,12 @@ concept-based code review, progress bands, side chat, and workflow tools.
 
 ## Install
 
+Formerly Claude Code Mods. The marketplace identity remains `claude-code-mods` so existing installations and settings continue to work.
+
 Use **Claude Code 2.1.296 or newer**. Start with five visual and review mods:
 
 ```bash
-claude plugin install starter-kit --marketplace sruthik27/claude-code-mods
+claude plugin install starter-kit --marketplace sruthik27/claude-foundry
 ```
 
 That installs **Lumen, Insight Pane, Changes, Goal Meter, and Live Progress** through Claude's plugin manager.
@@ -35,16 +37,16 @@ Try `/lumen demo`, `/intel`, and `/changes`.
 For the complete collection:
 
 ```bash
-claude plugin install all-mods --marketplace sruthik27/claude-code-mods
+claude plugin install all-mods --marketplace sruthik27/claude-foundry
 ```
 
 Or install just one:
 
 ```bash
-claude plugin install lumen --marketplace sruthik27/claude-code-mods
+claude plugin install lumen --marketplace sruthik27/claude-foundry
 ```
 
-You can also enter `/plugin install starter-kit --marketplace sruthik27/claude-code-mods` inside Claude Code.
+You can also enter `/plugin install starter-kit --marketplace sruthik27/claude-foundry` inside Claude Code.
 The source code is MIT licensed and free to install. Model-backed features use your own Claude Code model access and usage.
 
 ## Choose your mods
@@ -88,8 +90,8 @@ Marketplace auto-update is opt-in. Bundles install other plugins: removing a bun
 ## Develop and contribute
 
 ```bash
-git clone https://github.com/sruthik27/claude-code-mods
-cd claude-code-mods
+git clone https://github.com/sruthik27/claude-foundry
+cd claude-foundry
 python3 scripts/check.py
 ```
 

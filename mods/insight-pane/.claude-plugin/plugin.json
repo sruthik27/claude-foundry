@@ -3,8 +3,8 @@
   "version": "0.1.2",
   "description": "Live pane of the decisions, root causes and gotchas worth knowing, fed into ~/learning notes",
   "types": "./types/index.d.ts",
-  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/insight-pane",
-  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "homepage": "https://github.com/sruthik27/claude-foundry/tree/main/mods/insight-pane",
+  "repository": "https://github.com/sruthik27/claude-foundry",
   "license": "MIT",
   "author": {
     "name": "Sruthik Issac",

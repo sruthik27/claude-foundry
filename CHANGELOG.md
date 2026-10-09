@@ -2,7 +2,7 @@
 
 ## 0.1.0-beta.1 — 2026-10-10
 
-First public marketplace release of Claude Code Mods.
+First public marketplace release of Claude Foundry.
 
 - Publish 11 independent mods plus one-command `starter-kit` and `all-mods` bundles.
 - Add marketplace metadata, per-mod installation guides, compatibility and model-usage documentation, contributor instructions and automated CI.

@@ -3,8 +3,8 @@
   "version": "0.1.1",
   "description": "/self-drive: hand Claude a task and walk away; it decides alone, logs every call it would have asked you, holds risky actions, and keeps going",
   "types": "./types/index.d.ts",
-  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/self-drive",
-  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "homepage": "https://github.com/sruthik27/claude-foundry/tree/main/mods/self-drive",
+  "repository": "https://github.com/sruthik27/claude-foundry",
   "license": "MIT",
   "author": {
     "name": "Sruthik Issac",

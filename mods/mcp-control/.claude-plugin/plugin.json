@@ -2,8 +2,8 @@
   "name": "mcp-control",
   "version": "0.1.1",
   "description": "Lets Claude see every configured MCP server, ask you (one click) to enable one that is off here, and reconnect a server after editing it",
-  "homepage": "https://github.com/sruthik27/claude-code-mods/tree/main/mods/mcp-control",
-  "repository": "https://github.com/sruthik27/claude-code-mods",
+  "homepage": "https://github.com/sruthik27/claude-foundry/tree/main/mods/mcp-control",
+  "repository": "https://github.com/sruthik27/claude-foundry",
   "license": "MIT",
   "author": {
     "name": "Sruthik Issac",

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-labelledby="title desc">
-<title id="title">Claude Code Mods — illustrative terminal preview</title><desc id="desc">A concept preview showing code changes, an Intel pane, goal progress and a background test band. This is not a live screenshot.</desc>
+<title id="title">Claude Foundry — illustrative terminal preview</title><desc id="desc">A concept preview showing code changes, an Intel pane, goal progress and a background test band. This is not a live screenshot.</desc>
 <rect width="1100" height="570" rx="20" fill="#11111b"/><rect x="16" y="16" width="1068" height="538" rx="12" fill="#1e1e2e" stroke="#45475a"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#cdd6f4">
 <circle cx="39" cy="40" r="5" fill="#f38ba8"/><circle cx="57" cy="40" r="5" fill="#f9e2af"/><circle cx="75" cy="40" r="5" fill="#a6e3a1"/><text x="108" y="46" fill="#a6adc8">CLAUDE CODE MODS</text><text x="828" y="46" font-size="12" fill="#a6adc8">ILLUSTRATIVE PREVIEW</text>

@@ -5,7 +5,7 @@ Dependency-only bundle: Lumen, Insight Pane, Changes, Goal Meter and Live Progre
 ## Install
 
 ```bash
-claude plugin install starter-kit --marketplace sruthik27/claude-code-mods
+claude plugin install starter-kit --marketplace sruthik27/claude-foundry
 ```
 
 Requires Claude Code 2.1.296+. Reload plugins or start a new session after installation.
@@ -13,7 +13,7 @@ Requires Claude Code 2.1.296+. Reload plugins or start a new session after insta
 ## Try it
 
 ```text
-claude plugin install starter-kit --marketplace sruthik27/claude-code-mods
+claude plugin install starter-kit --marketplace sruthik27/claude-foundry
 ```
 
 ## Details
@@ -21,6 +21,6 @@ claude plugin install starter-kit --marketplace sruthik27/claude-code-mods
 - [Installation, compatibility and removal](../../docs/INSTALL.md)
 - [Model usage, data and limitations](../../docs/BEHAVIOR.md)
 - [Validation boundaries](../../docs/VALIDATION.md)
-- [Report a bug](https://github.com/sruthik27/claude-code-mods/issues/new/choose)
+- [Report a bug](https://github.com/sruthik27/claude-foundry/issues/new/choose)
 
 MIT licensed. Maintained by [Sruthik Issac](https://github.com/sruthik27).

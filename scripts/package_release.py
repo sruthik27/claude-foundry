@@ -12,7 +12,7 @@ def archive(name,files,relative,prefix=''):
         for rel in files:z.write(ROOT/rel,prefix+str((ROOT/rel).relative_to(relative)))
     with zipfile.ZipFile(target) as z:assert z.testzip() is None
     return target
-assets=[archive(f'claude-code-mods-{a.version}.zip',tracked,ROOT,'claude-code-mods/')]
+assets=[archive(f'claude-foundry-{a.version}.zip',tracked,ROOT,'claude-foundry/')]
 for mod in sorted((ROOT/'mods').iterdir()):
     if not (mod/'hooks/hooks.json').exists():continue
     files=[rel for rel in tracked if (ROOT/rel).is_relative_to(mod)]

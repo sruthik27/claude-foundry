@@ -1,7 +1,7 @@
 # lumen
 
 ```bash
-claude plugin install lumen --marketplace sruthik27/claude-code-mods
+claude plugin install lumen --marketplace sruthik27/claude-foundry
 ```
 
 Requires Claude Code 2.1.296+. See [installation and compatibility](../../docs/INSTALL.md).
